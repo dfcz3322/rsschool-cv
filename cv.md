@@ -5,9 +5,10 @@
 ---
 
 ## Contact Information
-* **Phone:** +380997372320, +48572138002 
+* **Phone:** +48572138002 
 * **Email:** [fdcz3322@gmail.com](mailto:fdcz3322@gmail.com) 
 * **GitHub:** [github.com/dfcz3322](https://github.com/dfcz3322) 
+* **Discord:** dfcz3322
 * **Location:** Wroclaw, Poland 
 
 ---
