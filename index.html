@@ -1,17 +1,156 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Милий песик</title>
+    <title>Anastasiia Kovalenko — CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="card">
-        <img src="https://avatars.githubusercontent.com/u/86071491?s=400&u=8636cafa983d86536bd19a3cd446ffe67499b5d0&v=4)" alt="cutie"
-        <h1>Ти гарнюня!</h1>
-        <p>Гарного тобі настрою <span class="heart">🐾</span></p>
+    <div class="container">
+
+        <header>
+            <img
+                src="https://avatars.githubusercontent.com/u/86071491?s=200"
+                alt="Anastasiia Kovalenko's wonderful dog"
+                class="avatar"
+            >
+            <div class="header-text">
+                <h1>Anastasiia Kovalenko</h1>
+                <p class="subtitle">Front-end Trainee</p>
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code Example</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <section id="summary">
+                <h2>Summary</h2>
+                <p>A motivated web development beginner eager to start the career as a front-end developer. Willing to apply my skills in the real project environment to develop fast, sustainable, reliable sites for optimal user experience.</p>
+            </section>
+
+            <section id="contacts">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Phone:</strong> +48572138002</li>
+                    <li><strong>Email:</strong><a href="mailto:fdcz3322@gmail.com"> fdcz3322@gmail.com</a></li>
+                    <li><strong>GitHub:</strong><a href="https://github.com/dfcz3322" target="_blank" rel="noopener noreferrer"> github.com/dfcz3322</a></li>
+                    <li><strong>Discord:</strong> dfcz3322</li>
+                    <li><strong>Location:</strong> Wroclaw, Poland</li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Languages:</strong>JavaScript, TypeScript</li>
+                    <li><strong>Frameworks / Libraries:</strong>React, Redux, Redux-Saga</li>
+                    <li><strong>Web:</strong>HTML5, CSS</li>
+                    <li><strong>Tools:</strong>Git, REST API, React Hooks</li>
+                </ul>
+            </section>
+
+            <section id="code">
+                <h2>Code Example</h2>
+                <p>Asynchronous Programming (TypeScript):</p>
+                <pre><code>addDog(dog: IDog): Promise&lt;IDog&gt; {
+    return new Promise((resolve, reject) =&gt; {
+        setTimeout(() =&gt; {
+            this.dogs.push(dog);
+            resolve(dog);
+        }, 1000);
+    });
+}</code></pre>
+            </section>
+
+            <section id="experience">
+                <h2>IT Related Experience</h2>
+
+                <h3>SoftServe IT Academy — Educational Practice</h3>
+                <p><em>August – November 2021</em></p>
+                <ul>
+                    <li>
+                        <strong>Marvel Project</strong> (<a href="https://github.com/dfcz3322/marvelproject/tree/develop" target="_blank" rel="noopener noreferrer">GitHub</a>)
+                        <ul>
+                            <li>Implemented a project that visualizes a list of Marvel characters using the Marvel open API.</li>
+                            <li>Features include searching and viewing comics related to characters.</li>
+                            <li>Built using React, TypeScript, Redux, and Redux-Saga.</li>
+                            <li>Refactored from React class components to functional components with React hooks.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Landing Page</strong> (<a href="https://github.com/dfcz3322/Landing_page/tree/review" target="_blank" rel="noopener noreferrer">GitHub</a>)
+                        <ul>
+                            <li>Implemented a large landing page based on a Figma design as a solo developer.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Self-education</h3>
+                <ul>
+                    <li>
+                        <strong>Bored Project</strong> (<a href="https://github.com/dfcz3322/bored-project" target="_blank" rel="noopener noreferrer">GitHub</a>)
+                        <ul>
+                            <li>A project to find activities when bored, with filtering by price and number of participants.</li>
+                            <li>Built using React, TypeScript, Redux, and React hooks.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>News Project</strong> (<a href="https://github.com/dfcz3322/dfcz3322.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>)
+                        <ul>
+                            <li>Vanilla JS project using the Guardian API.</li>
+                            <li>Fetches filtered article headers with brief descriptions and a full article view.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <strong>Master's Degree in Economic Cybernetics</strong> (2017–2019)
+                        <br>Kharkiv National University of Radio Electronics
+                    </li>
+                    <li>
+                        <strong>Bachelor's Degree in Economic Cybernetics</strong> (2013–2017)
+                        <br>V. N. Karazin Kharkiv National University
+                    </li>
+                </ul>
+            </section>
+
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li><strong>English:</strong> Intermediate</li>
+                    <li><strong>Ukrainian:</strong> Native</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                <a href="https://github.com/dfcz3322" target="_blank" rel="noopener noreferrer">github.com/dfcz3322</a>
+                &nbsp;·&nbsp;
+                2026
+                &nbsp;·&nbsp;
+                <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">RS School</a>
+            </p>
+        </footer>
+
     </div>
 
 </body>
