@@ -1,54 +1,175 @@
-body {
-    background-color: #f0f9ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+* {
+    box-sizing: border-box;
     margin: 0;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    padding: 0;
 }
 
-/* Картка з песиком */
-.card {
-    background: white;
-    padding: 25px;
-    border-radius: 30px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-    text-align: center;
-    max-width: 320px;
-    border: 4px solid #bae1ff;
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    background-attachment: fixed;
 }
 
-/* Налаштування картинки */
-img {
-    width: 100%;
-    border-radius: 20px;
-    transition: transform 0.3s ease;
+.container {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
-/* Ефект при наведенні мишкою */
-img:hover {
-    transform: scale(1.05);
+header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 36px 40px;
 }
 
-h1 {
-    color: #55acee;
-    margin: 15px 0 5px 0;
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.header-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+nav {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    padding: 0 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 12px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    padding: 0 40px 40px;
+}
+
+section {
+    padding-top: 36px;
+}
+
+section + section {
+    border-top: 1px solid #e0e0e0;
+    margin-top: 8px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px 0 4px;
 }
 
 p {
-    color: #777;
-    font-size: 18px;
+    margin-bottom: 8px;
 }
 
-.heart {
-    display: inline-block;
-    animation: pulse 1.5s infinite;
+ul {
+    list-style: disc;
+    padding-left: 20px;
 }
 
-/* Маленька анімація для лапки */
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.2); }
-    100% { transform: scale(1); }
+ul ul {
+    margin-top: 4px;
+    list-style: circle;
+}
+
+a {
+    color: #1a5276;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-left: 3px solid #333;
+    padding: 16px 20px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 40px;
+    border-top: 2px solid #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: #666;
+}
+
+footer a {
+    color: #1a5276;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+    }
+
+    nav {
+        padding: 0 20px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    main {
+        padding: 0 20px 32px;
+    }
+
+    footer {
+        padding: 16px 20px;
+    }
 }
