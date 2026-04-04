@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.body {
+    width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.allura-text {
+  font-family: 'Allura', cursive;
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+}
+.horizontal_alignment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header_borders {
+    margin: 0 64px;
+    height: 64px;
+    align-items: center;
+}
+.logo {                                                                                      
+    display: flex;                                                                             
+    align-items: center;                                                                       
+    gap: 8px;                                                                                  
+    text-decoration: none;                                                                     
+    color: inherit;                                                                            
+  }    
+
+  .logo_word {
+  font-size: 12px;          
+  line-height: 1.3;         
+  font-family: "Montserrat", sans-serif; 
+  font-weight: 600;                 
+  text-transform: uppercase;        
+  color: #181C29; 
+}
+.header_ul {
+   display: flex;                                                                                                                                             
+    gap: 40px;                                                                                                                                               
+    list-style: none;                                                                                                                                          
+    margin: 0;
+    padding: 0;                                                                                                                                                
+}
+.ul_a{
+    text-decoration: none;
+    color: inherit;
+}
+.block1 {
+  position: relative; 
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; 
+  border-radius: 20px 20px 0 0; 
+  background-color: #FF4646;
+  padding-bottom: 60px;
+}
+
+.background_snow {
+    background-image: url('assets/snow.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 524px;
+  width: 100%;
+}
+.hero_section {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content {
+    width: 450px;
+    height: 404px;
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.hero_h1 {
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 500; 
+  font-size: 32px;
+  line-height: 1.5; 
+  text-transform: uppercase; 
+  color: #FFFFFF;
+  text-align: center;
+  letter-spacing: 24%;
+}
+.hero_button {
+     border-radius: 20px;
+     width: 235px;
+     height: 56px;
+     background-color: #181C29;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 11px;
+     font-weight: 500;
+     text-transform: uppercase;
+     line-height: 1.3;
+     letter-spacing: 10%;
+}
+.about_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        width: 1276px;
+    height: 528px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.block2 {
+    background-color: #FF4646;
+    padding: 60px 0;
+
+}
+.about_h2 {
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 500; 
+  font-size: 24px;
+  line-height: 1.5em; 
+  text-transform: uppercase; 
+  letter-spacing: 22%;
+}
+.about_p {
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.48; 
+  color: #181C29;
+  letter-spacing: 7%;
+}
+.about_content {
+    width: 426px;
+    height: 328px;
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0 60px;
+    text-align: left;
+}
+.santa_wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.santa_image {
+      display: block;
+      width: 100%;                                                                                                                                             
+      height: 100%;
+      object-fit: cover;                                                                                                                                       
+  }       
+.block3 {
+    background-color: #FF4646;
+    padding: 60px 0;
+}
