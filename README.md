@@ -1,1 +1,1 @@
-https://dfcz3322.github.io/christmas-shop
+https://dfcz3322.github.io/rsschool-cv/christmas-shop
